@@ -1,4 +1,4 @@
-# pulsefy
+# Pulsefy
 Pulsefy is a module to work together with Spotify
 
 Pulsefy is a module for Polybar where it captures the volume of Spotify and shows it how many % it is currently at
