@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Obter o valor do volume do comando playerctl
+# Get volume value from playerctl command
 volume=$(playerctl -p spotify metadata --format '{{ volume }}')
 
-# Multiplicar o valor por 100 e arredondá-lo para zero casas decimais
+# Multiply the value by 100 and round it to zero decimal places
 volume_percentage=$(awk "BEGIN { printf \"%.0f\n\", $volume * 100 }")
 
-# Adicionar o símbolo de porcentagem (%)
+# Add the percent symbol (%)
 volume_formatted="$volume_percentage%"
 
-# Exibir o volume formatado
+# Display the formatted volume
 echo "$volume_formatted"
