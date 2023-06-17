@@ -4,6 +4,11 @@ Pulsefy is a module to work together with Spotify
 Pulsefy is a module for Polybar where it captures the volume of Spotify and shows it how many % it is currently at
 it's simple but functional.
 
+### DEPENDENCES
+```
+playctl
+```
+
 `Image showing that the spotify volume icon only appears when spotify is playing music.`
 ![2023-06-16-120934_1920x1080_scrot](https://github.com/Gho0stDev/Pulsefy/assets/118975798/53b51704-a8ba-4906-955b-477ba779a8c3)
 ![2023-06-16-121021_1920x1080_scrot](https://github.com/Gho0stDev/Pulsefy/assets/118975798/cb2647b0-ad38-4e3c-9e8c-69c265b7e31e)
